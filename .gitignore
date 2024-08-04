@@ -1,0 +1,32 @@
+# Ignore the MNIST dataset and any other large files or directories
+
+# Ignore data folder in MNIST project
+MNIST/data/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders (if you're using one)
+venv/
+env/
+.venv/
+.env/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
